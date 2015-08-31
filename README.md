@@ -14,16 +14,25 @@ After installation, we can run Haskell console with the follwing command:
 $ ghci
 ```
 
-We should see something like that:
+We can use Haskell through this console.
+
+Running the programs
+--------------------
+
+We can run haskell programs from a terminal. We just need to add appropriate header.
+
+Examplary program `hello.hs`:
+
+```haskell
+#!/usr/bin/env runhaskell
+main = putStrLn "Hello World!"
+```
+
+We can execute it as follows:
 
 ```
-GHCi, version 7.6.3: http://www.haskell.org/ghc/  :? for help
-Loading package ghc-prim ... linking ... done.
-Loading package integer-gmp ... linking ... done.
-Loading package base ... linking ... done.
+./hello.hs
 ```
-
-Now we can execute code.
 
 Resources
 ---------
