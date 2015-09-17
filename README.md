@@ -39,3 +39,4 @@ Resources
 
 - [Official website of the Haskell language](https://www.haskell.org/)
 - [Learn you Haskell](http://learnyouahaskell.com/)
+- [Haskell Video Tutorial (1h)](https://www.youtube.com/watch?v=02_H3LjqMr8)
