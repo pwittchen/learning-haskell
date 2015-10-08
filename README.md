@@ -34,6 +34,15 @@ We can execute it as follows:
 ./hello.hs
 ```
 
+IDEs
+----
+
+- [IntelliJ Plugin for Haskell](http://rikvdkleij.github.io/intellij-haskell/)
+- [Leskah](http://leksah.org/)
+- Atom.io
+  - [Haskell support](https://atom.io/packages/ide-haskell)
+  - [Haskell syntax coloring](https://atom.io/packages/language-haskell)
+
 Resources
 ---------
 
