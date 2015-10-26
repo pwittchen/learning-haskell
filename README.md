@@ -49,3 +49,4 @@ Resources
 - [Official website of the Haskell language](https://www.haskell.org/)
 - [Learn you Haskell](http://learnyouahaskell.com/)
 - [Haskell Video Tutorial (1h)](https://www.youtube.com/watch?v=02_H3LjqMr8)
+- [FP101x - Functional Programming MOOC 2015 Content Repository](https://github.com/fptudelft/FP101x-Content-2015)
