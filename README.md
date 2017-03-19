@@ -50,6 +50,7 @@ Resources
 - [Haskell-lang.org - docs](https://haskell-lang.org/documentation)
 - [Learn you Haskell](http://learnyouahaskell.com/)
 - [Learn you Haskell for Kindle](https://github.com/igstan/learn-you-a-haskell-kindle)
+- [Why Functional Programming matters? (pdf)](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 - [Haskell Video Tutorial (1h)](https://www.youtube.com/watch?v=02_H3LjqMr8)
 - [FP101x - Functional Programming MOOC 2015 Content Repository](https://github.com/fptudelft/FP101x-Content-2015)
 - [Hello Haskell, Goodbye Scala - blog post](http://joshbassett.info/2013/hello-haskell-goodbye-scala/)
