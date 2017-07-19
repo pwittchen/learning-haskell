@@ -43,6 +43,10 @@ IDEs
   - [Haskell support](https://atom.io/packages/ide-haskell)
   - [Haskell syntax coloring](https://atom.io/packages/language-haskell)
 
+Guidelines
+----------
+- [Haskell Guidelines](https://wiki.haskell.org/Programming_guidelines)
+
 Resources
 ---------
 
