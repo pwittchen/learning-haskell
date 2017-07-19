@@ -1,12 +1,18 @@
 # learning-haskell
 Repository created in order to learn basics of Haskell language
 
-Installation of Haskell on Ubuntu Linux
----------------------------------------
+Installation of Haskell
+-----------------------
+
+### Ubuntu
 
 ```
 sudo apt-get install haskell-platform
 ```
+
+## macOS
+
+Go to the website https://www.haskell.org/platform/mac.html, download installer and follow the instructions.
 
 After installation, we can run Haskell console with the follwing command:
 
