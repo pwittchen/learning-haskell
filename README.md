@@ -10,7 +10,7 @@ Installation of Haskell
 sudo apt-get install haskell-platform
 ```
 
-## macOS
+### macOS
 
 Go to the website https://www.haskell.org/platform/mac.html, download installer and follow the instructions.
 
