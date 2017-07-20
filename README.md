@@ -45,6 +45,11 @@ IDEs
 
 - [IntelliJ Plugin for Haskell](http://rikvdkleij.github.io/intellij-haskell/)
 - [Leskah](http://leksah.org/)
+
+Editors
+-------
+
+- Vim
 - Atom.io
   - [Haskell support](https://atom.io/packages/ide-haskell)
   - [Haskell syntax coloring](https://atom.io/packages/language-haskell)
