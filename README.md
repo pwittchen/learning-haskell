@@ -70,6 +70,10 @@ Packages
 - [cabal - package manager](https://www.haskell.org/cabal/)
 - [hackage - package repository](http://hackage.haskell.org/)
 
+Unit Testing
+------------
+- [HUnit](https://github.com/hspec/HUnit)
+
 Resources
 ---------
 
