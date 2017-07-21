@@ -39,9 +39,29 @@ comp5 = [3,4,2] == [3,4,2]
 
 -- head, tail, last, init
 
-arr = [5,4,3,2,1]
+lst = [5,4,3,2,1]
 
-h = head arr
-t = tail arr
-l = last arr
-i = init arr
+h = head lst
+t = tail lst
+l = last lst
+i = init lst
+
+-- checking length of the list
+
+lengthOfLst = length lst
+
+-- checking if list is empty
+
+isLstEmpty = null lst
+isEmptyEmpty = null []
+
+-- reversing list
+
+reverseLst = reverse lst
+
+-- extracting elements from the beginning of the list
+
+firstItem = take 1 lst
+first3Items = take 3 lst
+first50Items = take 50 lst
+first0Items = take 0 lst
