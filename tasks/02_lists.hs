@@ -1,5 +1,7 @@
 -- lists
 
+-- lists are homogenous (can store only items of a single type)
+
 -- creating lists
 
 firstList = [1,2,3]
