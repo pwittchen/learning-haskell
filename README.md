@@ -40,6 +40,13 @@ We can execute it as follows:
 ./hello.hs
 ```
 
+Moreover, we can load files with functions into ghci as follows:
+```
+ghci
+ghci > :l our_source_file.hs
+ghci > ourFunction
+```
+
 IDEs
 ----
 
