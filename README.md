@@ -65,6 +65,11 @@ Guidelines
 ----------
 - [Haskell Guidelines](https://wiki.haskell.org/Programming_guidelines)
 
+Packages
+--------
+- [cabal - package manager](https://www.haskell.org/cabal/)
+- [hackage - package repository](http://hackage.haskell.org/)
+
 Resources
 ---------
 
