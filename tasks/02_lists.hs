@@ -28,3 +28,20 @@ b = [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
 c = b ++ [[1,1,1,1]]
 d = [6,6,6]:b
 e = b !! 2
+
+-- comparison of the lists
+
+comp1 = [3,2,1] > [2,1,0]
+comp2 = [3,2,1] > [2,10,100]
+comp3 = [3,4,2] > [3,4]
+comp4 = [3,4,2] > [2,4]
+comp5 = [3,4,2] == [3,4,2]
+
+-- head, tail, last, init
+
+arr = [5,4,3,2,1]
+
+h = head arr
+t = tail arr
+l = last arr
+i = init arr
