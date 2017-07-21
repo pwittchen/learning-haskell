@@ -17,7 +17,7 @@ helloworld = "hello " ++ "world"
 asmallcat = 'A':"SMALL CAT"
 somethingAtStart = 5:[1,2,3]
 
--- accessing index of the list
+-- accessing value by the index of the list
 
 letter = "Steve Buscemi" !! 6
 value = [9.4,33.2,96.2,11.2,23.25] !! 1
