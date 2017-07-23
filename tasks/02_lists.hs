@@ -87,3 +87,15 @@ sumOfLSt = sum lst
 
 is4OnTheList = 4 `elem` [3,4,5,6]
 is7OnTheList = 7 `elem` [3,4,5,6]
+
+-- ranges
+range1 = [1..20]
+range2 = ['a'..'z']
+range3 = ['K'..'Z']
+range4 = [2,4..20]
+range5 = [3,6..20]
+range6 = [0.1,0.3..1]
+
+-- taking 'n' first elements from an infinite list
+
+first24elems = take 24 [13,26..]
