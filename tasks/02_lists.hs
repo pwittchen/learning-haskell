@@ -65,3 +65,25 @@ firstItem = take 1 lst
 first3Items = take 3 lst
 first50Items = take 50 lst
 first0Items = take 0 lst
+
+-- deleting first 'n' items from the lists
+
+lstToDrop = [8,4,2,1,5,6]
+lstDropped1 = drop 3 lstToDrop 
+lstDropped2 = drop 0 lstToDrop
+lstDropped3 = drop 100 lstToDrop
+
+-- mininum/maximum
+
+minOfLst = minimum lst
+maxOfLst = maximum lst
+
+-- product/sum
+
+prodOfLst = product lst
+sumOfLSt = sum lst
+
+-- checking if elements is on the list
+
+is4OnTheList = 4 `elem` [3,4,5,6]
+is7OnTheList = 7 `elem` [3,4,5,6]
