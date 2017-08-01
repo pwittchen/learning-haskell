@@ -128,3 +128,6 @@ lstComp3 = [x | x <- [50..100], x `mod` 7 == 3]
 -- replace each odd number greater than 10 with "BANG!" and each odd number less than 10 with "BOOM!"
 boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 boomBangs1 = boomBangs [7..13]
+
+-- numbers from 10 to 20 without several numbers as additional predicates
+lstComp4 = [ x | x <- [10..20],  x /= 13, x /= 15, x /=19]
