@@ -99,3 +99,16 @@ range6 = [0.1,0.3..1]
 -- taking 'n' first elements from an infinite list
 
 first24elems = take 24 [13,26..]
+
+-- cycle (produces an infinite list)
+
+cycle1 = take 10 (cycle [1,2,3])
+cycle2 = take 12 (cycle "LOL ")
+
+-- repeat (produces an inifite list of single elements)
+
+repeat1 = take 10 (repeat 5)
+
+-- replicate (produces list with 3 items of element 10)
+
+replicate1 = replicate 3 10
