@@ -112,3 +112,19 @@ repeat1 = take 10 (repeat 5)
 -- replicate (produces list with 3 items of element 10)
 
 replicate1 = replicate 3 10
+
+-- list comprehensions
+
+lstCompr1 = [x*2 | x <- [1..10]]
+-- [2,4,6..20]
+
+-- list comprehension with a predicate (condition)
+lstComp2 = [x*2 | x <- [1..10], x*2 >= 12]
+-- [12,14..20]
+
+-- numbers from 50 to 100 whose remainder when divided by 7 is 3
+lstComp3 = [x | x <- [50..100], x `mod` 7 == 3]
+
+-- replace each odd number greater than 10 with "BANG!" and each odd number less than 10 with "BOOM!"
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
+boomBangs1 = boomBangs [7..13]
