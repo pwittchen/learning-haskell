@@ -131,3 +131,16 @@ boomBangs1 = boomBangs [7..13]
 
 -- numbers from 10 to 20 without several numbers as additional predicates
 lstComp4 = [ x | x <- [10..20],  x /= 13, x /= 15, x /=19]
+
+-- list of combination of all products of the all items on the lists
+lstComp5 = [ x*y | x <- [2,5,10], y <- [8,10,11]]
+
+-- the same stuff as above but with the products that are greater than 50
+
+lstComp6 = [ x*y | x <- [2,5,10], y <- [8,10,11], x*y > 50]
+
+-- list comprehension o nouns and adjectives
+
+nouns = ["hobo", "frog", "pope"]
+adjectives = ["lazy", "grouchy", "sheming"]
+lstComp7 = [adjective ++ " " ++ noun | adjective <- adjectives, noun <- nouns]
