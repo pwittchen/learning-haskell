@@ -155,3 +155,8 @@ removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
 
 rnu1 = removeNonUppercase "Hahaha! Aahaha!"
 rnu2 = removeNonUppercase "IdontLIKEFROGS"
+
+-- remove all odd numbers without flattening list
+
+xxs = [[1,3,5,2,3,1,2,4,5],[1,2,3,4,5,6,7,8,9],[1,2,4,2,1,6,3,1,3,2,3,6]]
+withoutOdd = [ [ x | x <- xs, even x ] | xs <- xxs]
