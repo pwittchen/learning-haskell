@@ -144,3 +144,14 @@ lstComp6 = [ x*y | x <- [2,5,10], y <- [8,10,11], x*y > 50]
 nouns = ["hobo", "frog", "pope"]
 adjectives = ["lazy", "grouchy", "sheming"]
 lstComp7 = [adjective ++ " " ++ noun | adjective <- adjectives, noun <- nouns]
+
+-- creating our own length function
+
+length' xs = sum [ 1 | _ <- xs ]
+
+-- function that removes everything but uppercase letters
+
+removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
+
+rnu1 = removeNonUppercase "Hahaha! Aahaha!"
+rnu2 = removeNonUppercase "IdontLIKEFROGS"
