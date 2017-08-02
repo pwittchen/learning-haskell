@@ -183,4 +183,8 @@ zip3 = zip [5,3,2,6,2,7,2,5,4,6,6] ["im","a","turtle"]
 -- zip of with an infinite list (because Haskell is lazy)
 zip4 = zip [1..] ["apple", "orange", "cherry", "mango"]
 
+triangles = [ (a,b,c) | c <- [1..10], b <- [1..10], a <- [1..10] ]
+
+-- generate pair of numbers, which has right sides according to math pattern of triangle equation
+rightTriangles = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]
 
