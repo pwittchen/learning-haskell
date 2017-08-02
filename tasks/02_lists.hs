@@ -160,3 +160,17 @@ rnu2 = removeNonUppercase "IdontLIKEFROGS"
 
 xxs = [[1,3,5,2,3,1,2,4,5],[1,2,3,4,5,6,7,8,9],[1,2,4,2,1,6,3,1,3,2,3,6]]
 withoutOdd = [ [ x | x <- xs, even x ] | xs <- xxs]
+
+-- tuples
+
+-- list of tuples (in this case all tuples has to be the same due to homogenous list)
+
+lstOfTuples = [(1,2),(8,11),(4,5)]
+
+tuple1 = (1,"string")
+triple1 = ("Christopher", "Walken", 55)
+
+-- fst (returns first tuple component) & snd (returns second tuple component)
+
+fst1 = fst(8,11)
+snd1 = snd("Wow", False)
