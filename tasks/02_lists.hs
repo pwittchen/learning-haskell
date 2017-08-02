@@ -174,3 +174,13 @@ triple1 = ("Christopher", "Walken", 55)
 
 fst1 = fst(8,11)
 snd1 = snd("Wow", False)
+
+-- zip function for creating list of tuples (pairs) for the given lists
+
+zip1 = zip [1,2,3,4,5] [5,5,5,5,5] 
+zip2 = zip [1 .. 5] ["one", "two", "three", "four", "five"]
+zip3 = zip [5,3,2,6,2,7,2,5,4,6,6] ["im","a","turtle"]
+-- zip of with an infinite list (because Haskell is lazy)
+zip4 = zip [1..] ["apple", "orange", "cherry", "mango"]
+
+
