@@ -86,3 +86,4 @@ Resources
 - [FP101x - Functional Programming MOOC 2015 Content Repository](https://github.com/fptudelft/FP101x-Content-2015)
 - [Hello Haskell, Goodbye Scala - blog post](http://joshbassett.info/2013/hello-haskell-goodbye-scala/)
 - [Yesod - fast web framework for Haskell](http://www.yesodweb.com/)
+- [awesome haskell](https://github.com/krispo/awesome-haskell)
