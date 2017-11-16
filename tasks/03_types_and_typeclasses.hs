@@ -14,3 +14,5 @@ circumference r = 2 * pi * r
 
 -- typeclasses
 -- :t (==)
+
+lengthPlusVal = fromIntegral(length[1,2,3,4]) + 3.2
