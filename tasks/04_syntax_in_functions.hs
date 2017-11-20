@@ -32,4 +32,11 @@ tell (x:y:_) = "This list is long. The first two elements are: " ++ show x ++ " 
 
 length' :: (Num b) => [a] -> b
 length' [] = 0
-length' (_:xs) = 1 + length' xs  
+length' (_:xs) = 1 + length' xs 
+
+bmiTell :: (RealFloat a) => a -> a -> String
+bmiTell weight height
+    | weight / height ^ 2 <= 18.5 = "You're underweight, you emo, you!"  
+    | weight / height ^ 2 <= 25.0 = "You're supposedly normal. Pffft, I bet you're ugly!"  
+    | weight / height ^ 2 <= 30.0 = "You're fat! Lose some weight, fatty!"  
+    | otherwise                 = "You're a whale, congratulations!"
